@@ -35,6 +35,7 @@
             label2 = new Label();
             btnLogin = new Button();
             button1 = new Button();
+            btn_mute = new Button();
             SuspendLayout();
             // 
             // txtUser
@@ -57,7 +58,6 @@
             txtPassword.PasswordChar = '*';
             txtPassword.Size = new Size(125, 24);
             txtPassword.TabIndex = 1;
-            txtPassword.TextChanged += txtPassword_TextChanged;
             // 
             // lblTitle
             // 
@@ -93,7 +93,6 @@
             label2.Size = new Size(98, 17);
             label2.TabIndex = 4;
             label2.Text = "Password:";
-            label2.Click += label2_Click;
             // 
             // btnLogin
             // 
@@ -126,6 +125,18 @@
             button1.UseVisualStyleBackColor = false;
             button1.Click += button1_Click_1;
             // 
+            // btn_mute
+            // 
+            btn_mute.BackColor = Color.Wheat;
+            btn_mute.FlatStyle = FlatStyle.Flat;
+            btn_mute.Location = new Point(12, 394);
+            btn_mute.Name = "btn_mute";
+            btn_mute.Size = new Size(67, 44);
+            btn_mute.TabIndex = 7;
+            btn_mute.Text = "Mute";
+            btn_mute.UseVisualStyleBackColor = false;
+            btn_mute.Click += btn_mute_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -135,6 +146,7 @@
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(800, 450);
             ControlBox = false;
+            Controls.Add(btn_mute);
             Controls.Add(button1);
             Controls.Add(btnLogin);
             Controls.Add(label2);
@@ -143,6 +155,7 @@
             Controls.Add(txtPassword);
             Controls.Add(txtUser);
             Name = "Form1";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Heroes Quest: Login";
             ResumeLayout(false);
             PerformLayout();
@@ -157,5 +170,6 @@
         private Label label2;
         private Button btnLogin;
         private Button button1;
+        private Button btn_mute;
     }
 }
