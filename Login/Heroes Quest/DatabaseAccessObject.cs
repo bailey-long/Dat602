@@ -66,8 +66,10 @@ namespace Login
 
             var aDataSet = MySqlHelper.ExecuteDataset(DatabaseAccessObject.mySqlConnection, "CALL checkUsernameAndPassword(@UserName, @Password)", p.ToArray());
 
-            var arow = aDataSet.Tables[0].Rows[0];
-            if (lcResult == false)
+            DataRow arow = aDataSet.Tables[0].Rows[0];
+
+            string rowValue = arow.ItemArray[0].ToString();
+            if (rowValue == "Login succesful")
             {
                 lcResult = true;
             }
