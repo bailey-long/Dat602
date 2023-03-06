@@ -34,6 +34,29 @@ namespace Heroes_Quest
                 MessageBox.Show("incorrect details.");
             }
         }
+        //Sign up button handler
+        private void button2_Click(object sender, EventArgs e)
+        {
+            string lc_name = txtUser.Text;
+            string lc_password = txtPassword.Text;
+            //validate login details
+            DatabaseAccessObject dbaccess = new DatabaseAccessObject();
+            if (string.IsNullOrEmpty(lc_name) || string.IsNullOrEmpty(lc_password))
+            {
+                MessageBox.Show("Missing input from one or more fields.");
+            }
+            else if (dbaccess.CheckUsernameAndPassword(lc_name, lc_password) != true)
+            {
+                dbaccess.RegisterPlayer(lc_name, lc_password);
+                MessageBox.Show("Account created, welcome to Hero Quest " + lc_name + "! You may now login.");
+                txtUser.Text = string.Empty;
+                txtPassword.Text = string.Empty;
+            } 
+            else
+            {
+                MessageBox.Show("User already exists");
+            }
+        }
         //quit button handler
         private void button1_Click_1(object sender, EventArgs e)
         {
