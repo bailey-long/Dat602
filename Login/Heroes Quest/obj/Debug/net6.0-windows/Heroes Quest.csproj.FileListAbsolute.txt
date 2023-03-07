@@ -4,7 +4,6 @@ C:\Users\fiveb\workspace\Dat602\Login\Heroes Quest\bin\Debug\net6.0-windows\Hero
 C:\Users\fiveb\workspace\Dat602\Login\Heroes Quest\bin\Debug\net6.0-windows\Heroes Quest.dll
 C:\Users\fiveb\workspace\Dat602\Login\Heroes Quest\bin\Debug\net6.0-windows\Heroes Quest.pdb
 C:\Users\fiveb\workspace\Dat602\Login\Heroes Quest\obj\Debug\net6.0-windows\Heroes Quest.csproj.AssemblyReference.cache
-C:\Users\fiveb\workspace\Dat602\Login\Heroes Quest\obj\Debug\net6.0-windows\Heroes_Quest.Form1.resources
 C:\Users\fiveb\workspace\Dat602\Login\Heroes Quest\obj\Debug\net6.0-windows\Heroes Quest.csproj.GenerateResource.cache
 C:\Users\fiveb\workspace\Dat602\Login\Heroes Quest\obj\Debug\net6.0-windows\Heroes Quest.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\fiveb\workspace\Dat602\Login\Heroes Quest\obj\Debug\net6.0-windows\Heroes Quest.AssemblyInfoInputs.cache
@@ -29,3 +28,5 @@ C:\Users\fiveb\workspace\Dat602\Login\Heroes Quest\bin\Debug\net6.0-windows\krb5
 C:\Users\fiveb\workspace\Dat602\Login\Heroes Quest\bin\Debug\net6.0-windows\krbcc64.dll
 C:\Users\fiveb\workspace\Dat602\Login\Heroes Quest\bin\Debug\net6.0-windows\BouncyCastle.Crypto.dll
 C:\Users\fiveb\workspace\Dat602\Login\Heroes Quest\obj\Debug\net6.0-windows\Heroes Quest.csproj.CopyComplete
+C:\Users\fiveb\workspace\Dat602\Login\Heroes Quest\obj\Debug\net6.0-windows\Heroes_Quest.Login.resources
+C:\Users\fiveb\workspace\Dat602\Login\Heroes Quest\obj\Debug\net6.0-windows\Heroes_Quest.PlayerHub.resources

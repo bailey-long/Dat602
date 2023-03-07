@@ -4,12 +4,12 @@ using System.Security.Cryptography.X509Certificates;
 
 namespace Heroes_Quest
 {
-    public partial class Form1 : Form
+    public partial class Login : Form
     {
         //set starting values
         public SoundPlayer menuMusic = new SoundPlayer("C:\\Users\\fiveb\\workspace\\Dat602\\Login\\Heroes Quest\\Resources\\menuTheme.wav");
         public bool musicPlaying = true;
-        public Form1()
+        public Login()
         {
             InitializeComponent();
             menuMusic.Play();
@@ -28,6 +28,9 @@ namespace Heroes_Quest
             else if (dbaccess.CheckUsernameAndPassword(lc_name, lc_password))
             {
                 MessageBox.Show("User logged in.");
+
+                PlayerHub playerhub = new PlayerHub();
+                playerhub.Show();
             }
             else
             {
@@ -51,7 +54,7 @@ namespace Heroes_Quest
                 MessageBox.Show("Account created, welcome to Hero Quest " + lc_name + "! You may now login.");
                 txtUser.Text = string.Empty;
                 txtPassword.Text = string.Empty;
-            } 
+            }
             else
             {
                 MessageBox.Show("User already exists");

@@ -1,6 +1,6 @@
 ﻿namespace Heroes_Quest
 {
-    partial class Form1
+    partial class Login
     {
         /// <summary>
         ///  Required designer variable.
@@ -43,33 +43,35 @@
             // 
             txtUser.BackColor = Color.Wheat;
             txtUser.BorderStyle = BorderStyle.FixedSingle;
-            txtUser.Font = new Font("Monocraft", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            txtUser.Cursor = Cursors.IBeam;
+            txtUser.Font = new Font("Castellar", 9F, FontStyle.Bold, GraphicsUnit.Point);
             txtUser.Location = new Point(212, 134);
             txtUser.Margin = new Padding(3, 2, 3, 2);
             txtUser.Name = "txtUser";
-            txtUser.Size = new Size(110, 21);
+            txtUser.Size = new Size(110, 22);
             txtUser.TabIndex = 0;
             // 
             // txtPassword
             // 
             txtPassword.BackColor = Color.Wheat;
             txtPassword.BorderStyle = BorderStyle.FixedSingle;
-            txtPassword.Font = new Font("Monocraft", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            txtPassword.Cursor = Cursors.IBeam;
+            txtPassword.Font = new Font("Castellar", 9F, FontStyle.Bold, GraphicsUnit.Point);
             txtPassword.Location = new Point(361, 134);
             txtPassword.Margin = new Padding(3, 2, 3, 2);
             txtPassword.Name = "txtPassword";
             txtPassword.PasswordChar = '*';
-            txtPassword.Size = new Size(110, 21);
+            txtPassword.Size = new Size(110, 22);
             txtPassword.TabIndex = 1;
             // 
             // lblTitle
             // 
             lblTitle.AutoSize = true;
             lblTitle.BackColor = Color.AntiqueWhite;
-            lblTitle.Font = new Font("Monocraft", 16.2F, FontStyle.Bold | FontStyle.Underline, GraphicsUnit.Point);
+            lblTitle.Font = new Font("Castellar", 17.25F, FontStyle.Bold, GraphicsUnit.Point);
             lblTitle.Location = new Point(244, 32);
             lblTitle.Name = "lblTitle";
-            lblTitle.Size = new Size(190, 24);
+            lblTitle.Size = new Size(210, 27);
             lblTitle.TabIndex = 2;
             lblTitle.Text = "Heroes Quest";
             // 
@@ -78,10 +80,10 @@
             label1.AutoSize = true;
             label1.BackColor = Color.AntiqueWhite;
             label1.FlatStyle = FlatStyle.Popup;
-            label1.Font = new Font("Monocraft", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            label1.Font = new Font("Castellar", 9F, FontStyle.Bold, GraphicsUnit.Point);
             label1.Location = new Point(220, 119);
             label1.Name = "label1";
-            label1.Size = new Size(79, 13);
+            label1.Size = new Size(92, 14);
             label1.TabIndex = 3;
             label1.Text = "Username:";
             // 
@@ -90,10 +92,10 @@
             label2.AutoSize = true;
             label2.BackColor = Color.AntiqueWhite;
             label2.FlatStyle = FlatStyle.Popup;
-            label2.Font = new Font("Monocraft", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            label2.Font = new Font("Castellar", 9F, FontStyle.Bold, GraphicsUnit.Point);
             label2.Location = new Point(369, 119);
             label2.Name = "label2";
-            label2.Size = new Size(79, 13);
+            label2.Size = new Size(91, 14);
             label2.TabIndex = 4;
             label2.Text = "Password:";
             // 
@@ -101,10 +103,10 @@
             // 
             btnLogin.BackColor = Color.Wheat;
             btnLogin.Cursor = Cursors.Hand;
-            btnLogin.FlatAppearance.BorderColor = Color.White;
+            btnLogin.FlatAppearance.BorderColor = SystemColors.ActiveCaptionText;
             btnLogin.FlatAppearance.BorderSize = 0;
             btnLogin.FlatStyle = FlatStyle.Flat;
-            btnLogin.Font = new Font("Monocraft", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            btnLogin.Font = new Font("Castellar", 12F, FontStyle.Bold, GraphicsUnit.Point);
             btnLogin.ForeColor = SystemColors.ActiveCaptionText;
             btnLogin.Location = new Point(212, 173);
             btnLogin.Margin = new Padding(3, 2, 3, 2);
@@ -119,8 +121,9 @@
             // 
             button1.BackColor = Color.Wheat;
             button1.Cursor = Cursors.Hand;
+            button1.FlatAppearance.BorderColor = SystemColors.ActiveCaptionText;
             button1.FlatStyle = FlatStyle.Flat;
-            button1.Font = new Font("Monocraft", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            button1.Font = new Font("Castellar", 9F, FontStyle.Bold, GraphicsUnit.Point);
             button1.Location = new Point(590, 296);
             button1.Margin = new Padding(3, 2, 3, 2);
             button1.Name = "button1";
@@ -133,11 +136,14 @@
             // btn_mute
             // 
             btn_mute.BackColor = Color.Wheat;
+            btn_mute.Cursor = Cursors.Hand;
+            btn_mute.FlatAppearance.BorderColor = SystemColors.ActiveCaptionText;
             btn_mute.FlatStyle = FlatStyle.Flat;
-            btn_mute.Location = new Point(10, 296);
+            btn_mute.Font = new Font("Castellar", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            btn_mute.Location = new Point(12, 296);
             btn_mute.Margin = new Padding(3, 2, 3, 2);
             btn_mute.Name = "btn_mute";
-            btn_mute.Size = new Size(59, 33);
+            btn_mute.Size = new Size(98, 33);
             btn_mute.TabIndex = 7;
             btn_mute.Text = "Mute";
             btn_mute.UseVisualStyleBackColor = false;
@@ -146,8 +152,10 @@
             // button2
             // 
             button2.BackColor = Color.Wheat;
+            button2.Cursor = Cursors.Hand;
+            button2.FlatAppearance.BorderColor = SystemColors.ActiveCaptionText;
             button2.FlatStyle = FlatStyle.Flat;
-            button2.Font = new Font("Monocraft", 11.9999981F, FontStyle.Bold, GraphicsUnit.Point);
+            button2.Font = new Font("Castellar", 12F, FontStyle.Bold, GraphicsUnit.Point);
             button2.ForeColor = SystemColors.InfoText;
             button2.Location = new Point(347, 173);
             button2.Name = "button2";
@@ -157,7 +165,7 @@
             button2.UseVisualStyleBackColor = false;
             button2.Click += button2_Click;
             // 
-            // Form1
+            // Login
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -176,7 +184,7 @@
             Controls.Add(txtPassword);
             Controls.Add(txtUser);
             Margin = new Padding(3, 2, 3, 2);
-            Name = "Form1";
+            Name = "Login";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Heroes Quest: Login";
             ResumeLayout(false);
