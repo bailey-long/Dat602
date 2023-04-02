@@ -3,7 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33414.496
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Heroes Quest", "Heroes Quest\Heroes Quest.csproj", "{2DBF6C21-4B98-4BA8-AF16-5826DB59E5E8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Game", "Heroes Quest\Game.csproj", "{2DBF6C21-4B98-4BA8-AF16-5826DB59E5E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F6D378D8-8955-4F52-B1F5-13D70CA29657}"
+	ProjectSection(SolutionItems) = preProject
+		Variables.cs = Variables.cs
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

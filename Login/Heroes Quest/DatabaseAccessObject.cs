@@ -7,10 +7,11 @@ using System.Data;
 using MySql.Data.MySqlClient;
 
 
-namespace Login
+namespace Heroes_Quest
 {
     class DatabaseAccessObject
     {
+
         private static string connectionString
         {
             get { return "Server=localhost;Port=3306;Database=the_game;Uid=root;password=br9Mel!a;"; }
@@ -72,7 +73,7 @@ namespace Login
             if (rowValue == "Login succesful")
             {
                 lcResult = true;
-            }
+    }
             else
             {
                 // Add lines to display ortgher messages
@@ -83,10 +84,8 @@ namespace Login
         }
 
         
-        public class PlayerInDB
-        {
+        public class PlayerInDB {
 
-            //    Private _Username As String
             private string _UserName;
 
             public string UserName

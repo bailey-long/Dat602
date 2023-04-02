@@ -28,12 +28,34 @@
         /// </summary>
         private void InitializeComponent()
         {
-            components = new System.ComponentModel.Container();
+            PlayerNameDisplay = new Label();
+            SuspendLayout();
+            // 
+            // PlayerNameDisplay
+            // 
+            PlayerNameDisplay.AutoSize = true;
+            PlayerNameDisplay.Font = new Font("Castellar", 18F, FontStyle.Regular, GraphicsUnit.Point);
+            PlayerNameDisplay.Location = new Point(12, 9);
+            PlayerNameDisplay.Name = "PlayerNameDisplay";
+            PlayerNameDisplay.Size = new Size(197, 29);
+            PlayerNameDisplay.TabIndex = 0;
+            PlayerNameDisplay.Text = "PlayerName";
+            // 
+            // PlayerHub
+            // 
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(PlayerNameDisplay);
+            Name = "PlayerHub";
             Text = "Form2";
+            Load += PlayerHub_Load;
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
+
+        private Label PlayerNameDisplay;
     }
 }

@@ -10,19 +10,12 @@ using System.Windows.Forms;
 
 namespace Heroes_Quest
 {
-    public partial class PlayerHub : Form
+    public partial class AdminHub : Form
     {
-
-        public PlayerHub()
+        public AdminHub()
         {
-            InitializeComponent();
             DatabaseAccessObject dbaccess = new DatabaseAccessObject();
-            PlayerNameDisplay.Text = "";
-        }
-
-        private void PlayerHub_Load(object sender, EventArgs e)
-        {
-
+            InitializeComponent();
         }
     }
 }

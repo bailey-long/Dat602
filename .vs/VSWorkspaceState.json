@@ -1,6 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Login",
+    "\\Login\\Heroes Quest"
   ],
+  "SelectedNode": "\\Login\\Heroes Quest\\Login.cs",
   "PreviewInSolutionExplorer": false
 }

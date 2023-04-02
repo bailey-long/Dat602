@@ -1537,9 +1537,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\fiveb\\workspace\\Dat602\\Login\\Heroes Quest\\Heroes Quest.csproj",
-      "projectName": "Heroes Quest",
-      "projectPath": "C:\\Users\\fiveb\\workspace\\Dat602\\Login\\Heroes Quest\\Heroes Quest.csproj",
+      "projectUniqueName": "C:\\Users\\fiveb\\workspace\\Dat602\\Login\\Heroes Quest\\Game.csproj",
+      "projectName": "Game",
+      "projectPath": "C:\\Users\\fiveb\\workspace\\Dat602\\Login\\Heroes Quest\\Game.csproj",
       "packagesPath": "C:\\Users\\fiveb\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\fiveb\\workspace\\Dat602\\Login\\Heroes Quest\\obj\\",
       "projectStyle": "PackageReference",

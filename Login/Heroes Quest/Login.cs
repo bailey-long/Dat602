@@ -1,4 +1,4 @@
-using Login;
+using Heroes_Quest;
 using System.Media;
 using System.Security.Cryptography.X509Certificates;
 
@@ -9,15 +9,18 @@ namespace Heroes_Quest
         //set starting values
         public SoundPlayer menuMusic = new SoundPlayer("C:\\Users\\fiveb\\workspace\\Dat602\\Login\\Heroes Quest\\Resources\\menuTheme.wav");
         public bool musicPlaying = true;
+        public string lc_name = null;
+
+        public string displayName;
         public Login()
         {
             InitializeComponent();
             menuMusic.Play();
         }
         //login button handler
-        private void button1_Click(object sender, EventArgs e)
+        public void button1_Click(object sender, EventArgs e)
         {
-            string lc_name = txtUser.Text;
+            lc_name = txtUser.Text;
             string lc_password = txtPassword.Text;
             //validate login details
             DatabaseAccessObject dbaccess = new DatabaseAccessObject();
@@ -28,7 +31,7 @@ namespace Heroes_Quest
             else if (dbaccess.CheckUsernameAndPassword(lc_name, lc_password))
             {
                 MessageBox.Show("User logged in.");
-
+                //setup public display string for future windows.
                 PlayerHub playerhub = new PlayerHub();
                 playerhub.Show();
             }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MwLPNpb5z6fDYCwgsWMaeX/aOUopEE5DlETIVxnTPo0+UdOOwkCZE5rSnBCabhaVh05zq+poRICUBUFC9Waf/w==",
+  "dgSpecHash": "2bmo0XWKFxMp0xNzUeIACjsNQ6n3EYBR8RzsHlfrnwihMwb0jG6wrmXf95P4CBkiv65YSBqMgdjQgwqvGxkEhA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\fiveb\\workspace\\Dat602\\Login\\Heroes Quest\\Heroes Quest.csproj",
+  "projectFilePath": "C:\\Users\\fiveb\\workspace\\Dat602\\Login\\Heroes Quest\\Game.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\fiveb\\.nuget\\packages\\google.protobuf\\3.21.9\\google.protobuf.3.21.9.nupkg.sha512",
     "C:\\Users\\fiveb\\.nuget\\packages\\k4os.compression.lz4\\1.2.6\\k4os.compression.lz4.1.2.6.nupkg.sha512",

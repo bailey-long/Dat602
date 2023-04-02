@@ -104,7 +104,6 @@
             btnLogin.BackColor = Color.Wheat;
             btnLogin.Cursor = Cursors.Hand;
             btnLogin.FlatAppearance.BorderColor = SystemColors.ActiveCaptionText;
-            btnLogin.FlatAppearance.BorderSize = 0;
             btnLogin.FlatStyle = FlatStyle.Flat;
             btnLogin.Font = new Font("Castellar", 12F, FontStyle.Bold, GraphicsUnit.Point);
             btnLogin.ForeColor = SystemColors.ActiveCaptionText;
